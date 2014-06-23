@@ -11,7 +11,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 @Mod(modid="LetsModReboot", name="LetsModReboot", version="1.7.2-1.0")
 public class LetsModReboot {
-    //test
+
     //modid parameter - tamper check
     @Mod.Instance("LetsModReboot")
     public static LetsModReboot instance;
