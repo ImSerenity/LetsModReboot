@@ -3,5 +3,7 @@ package com.imserenity.letsmodreboot.proxy;
 /**
  * Created by Thomas on 07/07/2014.
  */
-public class ServerProxy extends CommonProxy{
+public class ServerProxy extends CommonProxy
+{
+
 }
