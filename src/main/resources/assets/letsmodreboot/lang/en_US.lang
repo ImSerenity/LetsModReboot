@@ -1,1 +1,5 @@
-item.letsmodreboot:waterWand.name = Water Wand
+item.letsmodreboot:waterWand.name= Water Wand
+item.letsmodreboot:earthWand.name= Earth Wand
+item.letsmodreboot:fireWand.name= Fire Wand
+item.letsmodreboot:defaultWand.name= Twig
+item.letsmodreboot:gemmedWand.name= Gemmed Wand
