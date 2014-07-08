@@ -1,11 +1,14 @@
 package com.imserenity.letsmodreboot.init;
 
 import com.imserenity.letsmodreboot.item.*;
+import com.imserenity.letsmodreboot.reference.Reference;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 /**
  * Created by Thomas on 07/07/2014.
  */
+
+@GameRegistry.ObjectHolder(Reference.MOD_ID)
 public class ModItems
 {
     public static final ItemLMRB waterWand = new ItemWaterWand();

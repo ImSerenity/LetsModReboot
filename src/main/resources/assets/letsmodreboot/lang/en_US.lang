@@ -1,5 +1,11 @@
-item.letsmodreboot:waterWand.name= Water Wand
-item.letsmodreboot:earthWand.name= Earth Wand
-item.letsmodreboot:fireWand.name= Fire Wand
-item.letsmodreboot:defaultWand.name= Twig
-item.letsmodreboot:gemmedWand.name= Gemmed Wand
+//Item Localization
+
+item.letsmodreboot:waterWand.name=Water Wand
+item.letsmodreboot:earthWand.name=Earth Wand
+item.letsmodreboot:fireWand.name=Fire Wand
+item.letsmodreboot:defaultWand.name=Twig
+item.letsmodreboot:gemmedWand.name=Gemmed Wand
+
+//Block Localization
+
+tile.letsmodreboot:wandEnchanter.name=Wand Enchanter
