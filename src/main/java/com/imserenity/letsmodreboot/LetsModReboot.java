@@ -18,7 +18,8 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
  */
 
 @Mod(modid = Reference.MOD_ID, name = Reference.MOD_NAME, version = Reference.VERSION, guiFactory = Reference.GUI_FACTORY_CLASS)
-public class LetsModReboot {
+public class LetsModReboot
+{
 
     //modid parameter - tamper check
     @Mod.Instance(Reference.MOD_ID)

@@ -1,5 +1,6 @@
 package com.imserenity.letsmodreboot.block;
 
+import com.imserenity.letsmodreboot.creativetabs.CreativeTabsLMRB;
 import com.imserenity.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -20,6 +21,7 @@ public class BlockLMRB extends Block
     public BlockLMRB()
     {
         this(Material.rock);
+        setCreativeTab(CreativeTabsLMRB.LMRB_TAB);;
     }
 
     @Override

@@ -1,5 +1,6 @@
 package com.imserenity.letsmodreboot.item;
 
+import com.imserenity.letsmodreboot.creativetabs.CreativeTabsLMRB;
 import com.imserenity.letsmodreboot.reference.Reference;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
@@ -16,6 +17,7 @@ public class ItemLMRB extends Item
     {
         super();
         setMaxStackSize(1);
+        setCreativeTab(CreativeTabsLMRB.LMRB_WAND);
     }
 
     @Override

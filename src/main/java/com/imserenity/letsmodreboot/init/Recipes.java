@@ -7,6 +7,7 @@ import cpw.mods.fml.common.registry.GameRegistry;
  */
 public class Recipes 
 {
+
     public static void init()
     {
         initModRecipes();
@@ -14,6 +15,6 @@ public class Recipes
 
     private static void initModRecipes()
     {
-        GameRegistry.a
+
     }
 }
