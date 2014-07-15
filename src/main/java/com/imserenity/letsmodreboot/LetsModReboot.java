@@ -3,6 +3,7 @@ package com.imserenity.letsmodreboot;
 import com.imserenity.letsmodreboot.handler.ConfigurationHandler;
 import com.imserenity.letsmodreboot.init.ModBlocks;
 import com.imserenity.letsmodreboot.init.ModItems;
+import com.imserenity.letsmodreboot.init.Recipes;
 import com.imserenity.letsmodreboot.proxy.IProxy;
 import com.imserenity.letsmodreboot.reference.Reference;
 import com.imserenity.letsmodreboot.utility.LogHelper;
@@ -45,6 +46,9 @@ public class LetsModReboot
     public void init(FMLInitializationEvent event)
     {
         LogHelper.info("Initialization Complete!");
+
+        //Register recipes
+        Recipes.init();
     }
 
     @Mod.EventHandler
